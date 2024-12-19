@@ -1,0 +1,173 @@
+body{
+  height: 100vh;
+  padding-left: 270px;
+  padding-right: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("background.jpg");
+}
+.title {
+	color: #5C6AC4;
+}
+div#title {
+  position: absolute;
+  top: 260px;
+  right: 480px;
+  color: white;
+}
+img#white{
+  height: 420px;
+  width: 1905px;
+  position: absolute;
+  top: 580px;
+  left: 0%;
+}
+img#top {
+  height: 100px;
+  width: 1905px;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+div#sq1 {
+  position: absolute;
+  top: 25px;
+  left: 1%;
+}
+img#sq2 {
+  position: absolute;
+  top: 25px;
+  left: 10%
+}
+img#sq3 {
+  position: absolute;
+  top: 25px;
+  left: 18.8%
+}
+div#txt1 {
+  position: absolute;
+  top: 20px;
+  left: 2%
+}
+div#txt2 {
+  position: absolute;
+  top: 20px;
+  left: 12.5%
+}
+div#txt3 {
+  position: absolute;
+  top: 20px;
+  left: 20.4%
+}
+div#txt4 {
+  position: absolute;
+  top: 600px;
+  left: 876px;
+}
+img#sq4 {
+  position: absolute;
+  height: 250px;
+  width: 260px;
+  top: 650px;
+  left: 795px;
+}
+img#sq5 {
+  position: absolute;
+  height: 250px;
+  width: 260px;
+  top: 650px;
+  left: 485px;
+}
+img#sq6 {
+  position: absolute;
+  height: 250px;
+  width: 260px;
+  top: 650px;
+  left: 1105px;
+}
+img#img1 {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 680px;
+  left: 510px;
+}
+img#img2 {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 680px;
+  left: 820px;
+  z-index: 100;
+}
+@keyframes sprite {
+  0% {background-position: 0% 0%}
+  100% {background-position: 100% 0%}
+}
+img.img3 {
+  background-image: url(../images/emoji.png);
+  animation: img3 3s linear infinite;
+}
+div#txt5 {
+  position: absolute;
+  top: 740px;
+  left: 515px;
+}
+div#txt6 {
+  position: absolute;
+  top: 740px;
+  left: 825px;
+}
+div#txt7 {
+  position: absolute;
+  top: 740px;
+  left: 1135px;
+}
+.link:link {
+  color: yellow;
+}
+.link:visited {
+  color: white;
+}
+.link:hover {
+  color: pink;
+}
+.facebook {
+  background: url('../images/icons.png') no-repeat -22px -61px;
+  transition: 0.15s;
+	width: 40px;
+	height: 44px;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+.tiktok{
+  background: url('../images/icons.png') no-repeat -450px -61px;
+  transition: 0.15s;
+  width: 39px;
+	height: 39px;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+}
+.insta {
+  background: url('../images/icons.png') no-repeat -144px -60px;
+  transition: 0.15s;
+	width: 39px;
+	height: 38px;
+  position: absolute;
+  right: 8.15%;
+  top: 3%;
+}
+.facebook:hover {
+  transform: scale(1.5);
+  transition-timing-function: ease-in;
+}
+.tiktok:hover {
+  transform: scale(1.5);
+  transition-timing-function: ease-in;
+}
+.insta:hover {
+  transform: scale(1.5);
+  transition-timing-function: ease-in;
+}
+
